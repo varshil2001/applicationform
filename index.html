@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>CLick</title>
+    <link rel="stylesheet" href="index.css">
+
+  </head>
+  <body onload="load()">
+      <h1>Saarthi.ai :  assignment</h1>
+      <div id="myform" class="container">
+      <form name="myForm"   >
+      <b class="abc">Enter new employee details</b>
+      <table class="table">
+          <tr>
+              <td>Name:</td>
+              <td><input type="text" name="name" id="name"></td>
+          </tr>
+          <tr>
+              <td>EmployeeId:</td>
+              <td><input type="text" name="EmployeeId" id="EmployeeId"></td>
+          </tr>
+          <tr>
+              <td>Department:</td>
+              <td><select id="dept" name="dept">
+                <option value="Marketing">Marketing</option>
+                <option value="FrontEnd">FrontEnd</option>
+                <option value="BackEnd">BackEnd</option>
+                <option value="Machine Learning">Machine Learning</option>
+                <option value="HR">HR</option>
+                </select></td>
+          </tr>
+          <tr>
+              <td>EmailId:</td>
+              <td><input type="text" name="EmailId" id="EmailId"></td>
+          </tr>
+          <tr>
+              <td>DateOfJoining:</td>
+              <td><input type="date" name="DOJ" id="DOJ"></td>
+          </tr>
+
+      </table>
+      <input type="reset">
+      <input type="button1" id="add" value="Add"isEmpty(); onclick="isEmpty(); addRow() ">
+
+
+
+      </form>
+      </div>
+
+
+
+  <div id="mydata" class="container1">
+  <b class="empinf">Employee Information...</b>
+
+  <table id="myTableData" class="container2" border="1" cellpadding="2">
+      <tr>
+          <td>&nbsp;</td>
+          <td class="names"><b>Name</b></td>
+          <td class="names"><b>ID</b></td>
+          <td class="names"><b>Department</b></td>
+          <td class="names"><b>EmailID</b></td>
+          <td class="names"><b>Date of Joining</b></td>
+      </tr>
+  </table>
+  &nbsp;<br/>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="index.js" charset="utf-8"></script>
+  </body>
+</html>
